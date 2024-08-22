@@ -1,0 +1,18 @@
+{
+  "name": "pkg-b",
+  "version": "1.0.0",
+  "description": "this is a rush & github action demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "tsc --build --clean",
+    "build": "tsc --module esnext --outDir es"
+  },
+  "keywords": [
+    "rush",
+    "github",
+    "action"
+  ],
+  "author": "leo",
+  "license": "MIT"
+}
