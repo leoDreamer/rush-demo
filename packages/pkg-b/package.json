@@ -1,8 +1,8 @@
 {
-  "name": "pkg-b",
+  "name": "@cqleo/pkg-b",
   "version": "1.0.0",
   "description": "this is a rush & github action demo",
-  "main": "index.js",
+  "main": "es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "tsc --build --clean",
@@ -14,5 +14,11 @@
     "action"
   ],
   "author": "leo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@cqleo/pkg-a": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4"
+  }
 }

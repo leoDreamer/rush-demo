@@ -1,0 +1,33 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  ../../packages/pkg-a:
+    devDependencies:
+      typescript:
+        specifier: 5.5.4
+        version: 5.5.4
+
+  ../../packages/pkg-b:
+    dependencies:
+      '@cqleo/pkg-a':
+        specifier: workspace:*
+        version: link:../pkg-a
+    devDependencies:
+      typescript:
+        specifier: 5.5.4
+        version: 5.5.4
+
+packages:
+
+  /typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

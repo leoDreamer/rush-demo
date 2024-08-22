@@ -1,10 +1,11 @@
 {
-  "name": "rush-github-action-demo",
+  "name": "@cqleo/rush-github-action-demo",
   "version": "1.0.0",
   "description": "this is a rush & github action demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "change": "rush change --all"
   },
   "keywords": [
     "rush",
@@ -13,8 +14,7 @@
   ],
   "author": "leo",
   "license": "MIT",
-  "dependencies": {
-    "@microsoft/rush": "5.132.0",
-    "typescript": "5.5.4"
+  "devDependencies": {
+    "@microsoft/rush": "5.132.0"
   }
 }
