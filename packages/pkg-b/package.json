@@ -1,6 +1,6 @@
 {
   "name": "@cqleo/pkg-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a rush & github action demo",
   "main": "es/index.js",
   "scripts": {

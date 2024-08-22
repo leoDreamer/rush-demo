@@ -16,11 +16,13 @@
   "projects": [
     {
       "packageName": "@cqleo/pkg-a",
-      "projectFolder": "packages/pkg-a"
+      "projectFolder": "packages/pkg-a",
+      "shouldPublish": true
     },
     {
       "packageName": "@cqleo/pkg-b",
-      "projectFolder": "packages/pkg-b"
+      "projectFolder": "packages/pkg-b",
+      "shouldPublish": true
     }
   ]
 }
