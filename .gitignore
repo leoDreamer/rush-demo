@@ -153,5 +153,5 @@ coverage
 es
 .DS_Store
 common/temp
-.rush/temp
+.rush
 rush-logs
