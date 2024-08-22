@@ -1,0 +1,17 @@
+{
+  "name": "@cqleo/pkg-a",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@cqleo/pkg-a_v1.0.1",
+      "date": "Thu, 22 Aug 2024 09:25:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "init"
+          }
+        ]
+      }
+    }
+  ]
+}
